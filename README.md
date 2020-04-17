@@ -3,6 +3,9 @@ DropDown menu for coronasdk in lua language
 
 I created this dropDown menu using coronasdk widget library.
 
+This library use CoronaLabs widget library. Its an Open Source library that you can find in this link:
+https://github.com/coronalabs/framework-widget
+
 This is an example of its usage:
 ```lua
 local drop =  require("drop")
