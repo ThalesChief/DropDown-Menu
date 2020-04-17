@@ -4,7 +4,7 @@ DropDown menu for coronasdk in lua language
 I created this dropDown menu using coronasdk widget library.
 
 This is an example of its usage:
-
+```lua
 local drop =  require("drop")
 
 local dropDownFonts = drop.new(
@@ -24,7 +24,7 @@ local dropDownFonts = drop.new(
 		WindowSize = 300 -- the height of the menu when opened
 	},listener -- function that ill be triggered when you click an option
 )
-
+```
 Return: string
 
 When you click an option it ill return its name in: "dropDownFonts.choice"
